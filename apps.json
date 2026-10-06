@@ -1,0 +1,54 @@
+{
+  "name": "Last Wave",
+  "identifier": "com.davidadelg.lastwave.source",
+  "subtitle": "YouTube Music player with Automix, lyrics and downloads",
+  "description": "Official source for Last Wave, a native iPhone music player for your YouTube Music library in the style of Apple Music. New releases appear here automatically.",
+  "iconURL": "https://raw.githubusercontent.com/DavidAdelG/LastWave-iOS/main/icon.png",
+  "website": "https://github.com/DavidAdelG/LastWave-iOS",
+  "tintColor": "#FF5C8A",
+  "featuredApps": [
+    "com.davidadelg.lastwave"
+  ],
+  "apps": [
+    {
+      "name": "Last Wave",
+      "bundleIdentifier": "com.davidadelg.lastwave",
+      "developerName": "Last Wave",
+      "subtitle": "Your YouTube Music library, mixed like a DJ",
+      "localizedDescription": "A native iPhone music player for your YouTube Music library, built in the style of Apple Music. Your playlists, likes and history come from your YouTube Music account; Last Wave adds DJ-style Automix with tempo matching, synced word-by-word lyrics, search by lyrics, offline downloads, Last.fm scrobbling and playlist import from Spotify and Apple Music.\n\nThree interfaces: Classic (iOS 18), Liquid Glass (iOS 26) and Liquid Glass+ (iOS 27 and later). Requires iOS 18 or later and a YouTube Music account (free is fine).\n\nIndependent and non-commercial. Not affiliated with Google, YouTube, Spotify, Apple or Last.fm.",
+      "iconURL": "https://raw.githubusercontent.com/DavidAdelG/LastWave-iOS/main/icon.png",
+      "tintColor": "#FF5C8A",
+      "category": "entertainment",
+      "screenshots": [
+        "https://raw.githubusercontent.com/DavidAdelG/LastWave-iOS/main/screenshots/player.png",
+        "https://raw.githubusercontent.com/DavidAdelG/LastWave-iOS/main/screenshots/queue.png",
+        "https://raw.githubusercontent.com/DavidAdelG/LastWave-iOS/main/screenshots/search.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-10-06T12:01:52Z",
+          "localizedDescription": "Release notes: https://github.com/DavidAdelG/LastWave-iOS/releases/tag/v1.0",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0/LastWave.ipa",
+          "size": 3835182,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "Last Wave 1.0 is out",
+      "identifier": "release-1.0",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-06T12:01:52Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    }
+  ]
+}
