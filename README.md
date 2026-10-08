@@ -28,6 +28,8 @@ The source is updated by the release pipeline the moment a new IPA is published.
 - Autoplay keeps the music going with radio that follows what you were playing, and fetches ahead so the queue never runs dry.
 - Lock screen and Control Center controls, AirPlay, and pauses for calls and other players the way Music does. Games and apps that mix their sound never stop it.
 - Hour‑long recordings that YouTube won't stream are fetched and played from disk instead of being skipped.
+- Cache Ahead: once a song plays, the songs after it in the queue are fetched up to a budget you choose (250 MB to 4 GB), so a tunnel or the subway doesn't stop the music. When the connection drops the player moves on to the songs already on the phone and resumes fetching when it's back.
+- Offline mode: anything that needs the internet is dimmed and disabled; downloads, cached songs, local playlists and settings keep working.
 
 **Automix**
 - Analyzes rhythm, key, energy and loudness of each song and mixes like a DJ: long blend with bass swap, filter sweep, echo out, cut on the beat or reverb tail. Pick a style or leave it automatic.
@@ -46,7 +48,7 @@ The source is updated by the release pipeline the moment a new IPA is published.
 - "Don't Recommend" keeps songs out of suggestions, with a list in Settings to review and undo.
 
 **Downloads**
-- Download songs, albums or whole playlists with lyrics and artwork for offline listening, with a queue that shows progress and lets you retry or cancel.
+- Download songs, albums or whole playlists with lyrics and artwork for offline listening; covers are saved with the download and shown offline. A queue shows progress and lets you retry or cancel.
 
 **Discovery**
 - Home and Discover follow what you actually play: the same languages, and Christian music stays Christian when that's what you listen to.
