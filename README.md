@@ -10,6 +10,8 @@ Grab `LastWave.ipa` from the [latest release](../../releases/latest) and install
 
 Requires an iPhone on iOS 18 or later. iOS 26 and 27 unlock the Liquid Glass interfaces.
 
+`apps.json` is the AltStore / SideStore / LiveContainer source. `clients.json` is the list of YouTube clients the player may act as; the app checks it between releases so a change on YouTube's side can be fixed without a new IPA.
+
 ### Add the source (automatic updates)
 
 AltStore, SideStore and LiveContainer can follow Last Wave as a source, so new versions show up in their Updates tab. Add this URL under Sources › + :
