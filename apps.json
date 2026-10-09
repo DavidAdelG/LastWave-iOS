@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.4",
+          "date": "2026-10-09T15:58:29Z",
+          "localizedDescription": "## What's new in 1.0.4\n\n- Cache Ahead now saves each song's cover next to its audio, so cached songs show their artwork offline.\n- Offline mode is consistent across Home, Library, Search and the player: anything that needs a connection is greyed out, and songs that can't play offline are dimmed.\n- Clearer messages: a failed request is now reported as such instead of \"No results\" or \"Not found\" across search, lyric search, mixes, Discover, Last.fm stats, playlists and imports.\n- Start Mix plays the song on its own and says so when the mix can't be loaded.\n- The Opus quality swap fades from the normalized volume and restores it when interrupted, so loud songs no longer jump in level.\n- The list of YouTube clients the player can act as can be updated between releases (About › Stream clients), so a change on YouTube's side can be fixed without a new build.\n- Many smaller fixes to playback, downloads and storage safety.\n\nRequires iOS 18 or later. Unsigned IPA; install with AltStore, SideStore, Sideloadly or LiveContainer.\n\nBuild 11 · source 7bc0648 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.4/LastWave.ipa",
+          "size": 4291302,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.3",
           "date": "2026-10-08T21:10:13Z",
           "localizedDescription": "Build 10 · source 1f6b763b09541bebbc7c06bf56bfe4736ac35405 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256` · published from the developer's Mac",
@@ -65,6 +73,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.4 is out",
+      "identifier": "release-1.0.4",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-09T15:58:29Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.3 is out",
       "identifier": "release-1.0.3",
