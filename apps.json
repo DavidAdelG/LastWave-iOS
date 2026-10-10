@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.6",
+          "date": "2026-10-10T10:39:50Z",
+          "localizedDescription": "## What's new in 1.0.6\n\n- The player's heart now reflects songs you liked before, including older likes and likes made on another device: the app asks YouTube Music for the song's like state when it starts playing.\n- Liked songs load as soon as the app is online, not only when the Library tab is opened.\n\nRequires iOS 18 or later. Unsigned IPA; install with AltStore, SideStore, Sideloadly or LiveContainer.\n\nBuild 13 · source 0c01370 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.6/LastWave.ipa",
+          "size": 4301241,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.5",
           "date": "2026-10-09T16:41:33Z",
           "localizedDescription": "## What's new in 1.0.5\n\n- Downloaded playlists stay complete: a song you add to a playlist you downloaded is downloaded too, and a song you remove leaves the playlist's Downloads card (the file stays in your downloads).\n- Genre DNA is disabled offline, like the other pages that need a connection.\n\nRequires iOS 18 or later. Unsigned IPA; install with AltStore, SideStore, Sideloadly or LiveContainer.\n\nBuild 12 · source a1455ca · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -81,6 +89,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.6 is out",
+      "identifier": "release-1.0.6",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-10T10:39:50Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.5 is out",
       "identifier": "release-1.0.5",
