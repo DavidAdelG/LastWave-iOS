@@ -16,9 +16,9 @@
     {
       "name": "IOS",
       "id": "5",
-      "version": "21.26.4",
+      "version": "20.10.4",
       "apiKey": "AIzaSyB-63vPrdThhKuerbB2N_l7Kwwcxj6yUAc",
-      "userAgent": "com.google.ios.youtube/21.26.4 (iPhone16,2; U; CPU iOS 18_3_2;)",
+      "userAgent": "com.google.ios.youtube/20.10.4 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)",
       "osName": "iPhone",
       "osVersion": "18.3.2.22D82",
       "deviceMake": "Apple",
@@ -66,8 +66,19 @@
       "osName": "Android",
       "osVersion": "12",
       "progressiveNeedsUserAgent": true
+    },
+    {
+      "name": "ANDROID",
+      "id": "3",
+      "version": "20.10.38",
+      "apiKey": "AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w",
+      "userAgent": "com.google.android.youtube/20.10.38 (Linux; U; Android 11) gzip",
+      "osName": "Android",
+      "osVersion": "11",
+      "androidSdkVersion": 30,
+      "progressiveNeedsUserAgent": true
     }
   ],
   "playbackOrder": ["VISIONOS", "IOS", "TVHTML5", "IOS_MUSIC", "ANDROID_VR", "ANDROID_TESTSUITE"],
-  "downloadOrder": ["VISIONOS", "ANDROID_VR", "TVHTML5", "ANDROID_TESTSUITE", "IOS_MUSIC", "IOS"]
+  "downloadOrder": ["VISIONOS", "ANDROID_VR", "ANDROID", "IOS", "TVHTML5", "ANDROID_TESTSUITE", "IOS_MUSIC"]
 }
