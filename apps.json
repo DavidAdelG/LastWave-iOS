@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.12",
+          "date": "2026-10-11T12:46:30Z",
+          "localizedDescription": "Lyrics: word-synced lines now fill smoothly word by word as they are sung, with a soft edge and a gentle lift on the word in progress, like Apple Music. Right-to-left lyrics fill from the right. With Reduce Motion on, words fill without the lift.\n\nBuild 19 · source 93b23ac · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.12/LastWave.ipa",
+          "size": 3740631,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.11",
           "date": "2026-10-11T12:03:22Z",
           "localizedDescription": "Follow-ups from the external audit: the client table is checked at its pinned commit on every release, a slow first launch no longer switches proof-of-origin tokens off for the session, token minting backs off after a failure, sign-in is judged on the cookies the app keeps, copied-link offers can be switched off under Playback, and a few small hardening fixes. The app is now iPhone-only.\n\nBuild 18 · source 4f0e915 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -129,6 +137,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.12 is out",
+      "identifier": "release-1.0.12",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-11T12:46:30Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.11 is out",
       "identifier": "release-1.0.11",
