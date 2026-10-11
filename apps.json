@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.11",
+          "date": "2026-10-11T12:03:22Z",
+          "localizedDescription": "Follow-ups from the external audit: the client table is checked at its pinned commit on every release, a slow first launch no longer switches proof-of-origin tokens off for the session, token minting backs off after a failure, sign-in is judged on the cookies the app keeps, copied-link offers can be switched off under Playback, and a few small hardening fixes. The app is now iPhone-only.\n\nBuild 18 · source 4f0e915 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.11/LastWave.ipa",
+          "size": 3732407,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.10",
           "date": "2026-10-11T11:32:54Z",
           "localizedDescription": "Lyrics: seven more sources with Apple Music word-by-word timing; every source is asked at once and the best answer wins, fetched when you open the lyrics panel. Right-to-left lyrics lay out from the right. Search puts official artists and their recordings first, with a seal on official artists, and the keyboard can be put away without leaving the search. Animated covers: the large still steps aside for a small cover by the title. Proof-of-origin tokens are attached automatically to the clients YouTube asks, in a web view that never sees your sign-in. When YouTube refuses a network, the queue waits and Settings › YouTube Music › Access explains. Many hardening fixes from a full review.\n\nBuild 17 · source 12676b3 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -121,6 +129,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.11 is out",
+      "identifier": "release-1.0.11",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-11T12:03:22Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.10 is out",
       "identifier": "release-1.0.10",
