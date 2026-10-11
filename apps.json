@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.8",
+          "date": "2026-10-11T07:24:54Z",
+          "localizedDescription": "Fixes from the first device run of 1.0.7: the opt-in player morph no longer crashes when opened with a swipe, dragging the lyrics scrolls them instead of closing the player, the closing panel is the bar's frosted material rather than black, and the cover never comes back blank. Animated covers work again (Apple changed its web token), and the PO token test no longer fails with a 400.\n\nBuild 15 · source 17f7a0d · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.8/LastWave.ipa",
+          "size": 4499002,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.7",
           "date": "2026-10-10T21:54:21Z",
           "localizedDescription": "Lyrics: seven more sources (SimpMusic, BetterLyrics, LyricsPlus, BiniLyrics, lrc.red, PaxSenix, Unison) with Apple Music word-by-word timing; every source is asked at once and the best answer wins. Try another source cycles through the sources that have lyrics and can be switched off. Opt-in: player morph from the mini player (Settings › Now Playing) and Apple Music animated covers (Beta). Stream clients can be updated remotely. Fixes: morph player sat under the status bar.\n\nBuild 14 · source db02e94 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -97,6 +105,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.8 is out",
+      "identifier": "release-1.0.8",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-11T07:24:54Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.7 is out",
       "identifier": "release-1.0.7",
