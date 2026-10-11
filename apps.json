@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.13",
+          "date": "2026-10-11T14:15:43Z",
+          "localizedDescription": "Fewer requests to YouTube, so its bot check is triggered less and lifts sooner: songs usually need one request instead of several, and one answer serves streaming, caching and quality changes. When YouTube does refuse the network, Last Wave stops asking for a while (one minute, then longer, up to ten), tries with a couple of requests instead of dozens, and tries at once when you switch between Wi-Fi and cellular or tap Try again in Settings › YouTube Music.\n\nBuild 20 · source 1b9fcd1 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.13/LastWave.ipa",
+          "size": 3766182,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.12",
           "date": "2026-10-11T12:46:30Z",
           "localizedDescription": "Lyrics: word-synced lines now fill smoothly word by word as they are sung, with a soft edge and a gentle lift on the word in progress, like Apple Music. Right-to-left lyrics fill from the right. With Reduce Motion on, words fill without the lift.\n\nBuild 19 · source 93b23ac · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -137,6 +145,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.13 is out",
+      "identifier": "release-1.0.13",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-11T14:15:43Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.12 is out",
       "identifier": "release-1.0.12",
