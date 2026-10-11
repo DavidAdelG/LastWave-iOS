@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.9",
+          "date": "2026-10-11T07:51:40Z",
+          "localizedDescription": "PO tokens: the test token now mints. The challenge's program and global name were read from the wrong fields, which showed as \"BotGuard script: VM not found\". Nothing else changed since 1.0.8.\n\nBuild 16 · source b78c746 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.9/LastWave.ipa",
+          "size": 4499264,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.8",
           "date": "2026-10-11T07:24:54Z",
           "localizedDescription": "Fixes from the first device run of 1.0.7: the opt-in player morph no longer crashes when opened with a swipe, dragging the lyrics scrolls them instead of closing the player, the closing panel is the bar's frosted material rather than black, and the cover never comes back blank. Animated covers work again (Apple changed its web token), and the PO token test no longer fails with a 400.\n\nBuild 15 · source 17f7a0d · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -105,6 +113,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.9 is out",
+      "identifier": "release-1.0.9",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-11T07:51:40Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.8 is out",
       "identifier": "release-1.0.8",
