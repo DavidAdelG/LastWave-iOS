@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.10",
+          "date": "2026-10-11T11:32:54Z",
+          "localizedDescription": "Lyrics: seven more sources with Apple Music word-by-word timing; every source is asked at once and the best answer wins, fetched when you open the lyrics panel. Right-to-left lyrics lay out from the right. Search puts official artists and their recordings first, with a seal on official artists, and the keyboard can be put away without leaving the search. Animated covers: the large still steps aside for a small cover by the title. Proof-of-origin tokens are attached automatically to the clients YouTube asks, in a web view that never sees your sign-in. When YouTube refuses a network, the queue waits and Settings › YouTube Music › Access explains. Many hardening fixes from a full review.\n\nBuild 17 · source 12676b3 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.10/LastWave.ipa",
+          "size": 4575677,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.9",
           "date": "2026-10-11T07:51:40Z",
           "localizedDescription": "PO tokens: the test token now mints. The challenge's program and global name were read from the wrong fields, which showed as \"BotGuard script: VM not found\". Nothing else changed since 1.0.8.\n\nBuild 16 · source b78c746 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -113,6 +121,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.10 is out",
+      "identifier": "release-1.0.10",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-11T11:32:54Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.9 is out",
       "identifier": "release-1.0.9",
