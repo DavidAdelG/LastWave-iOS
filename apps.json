@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.14",
+          "date": "2026-10-11T21:33:26Z",
+          "localizedDescription": "Playback fix: songs stopped playing from 1.0.11 on with \"Sign in to confirm you're not a bot\". That was a bug in Last Wave, not your network: YouTube's visitor id got longer and the app discarded it, so YouTube refused every request. Fixed. One song YouTube won't serve no longer stalls the whole queue. Two more backup sources for fetching a song that won't stream.\n\nBuild 21 · source 76cd4d2 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.14/LastWave.ipa",
+          "size": 3767203,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.13",
           "date": "2026-10-11T14:15:43Z",
           "localizedDescription": "Fewer requests to YouTube, so its bot check is triggered less and lifts sooner: songs usually need one request instead of several, and one answer serves streaming, caching and quality changes. When YouTube does refuse the network, Last Wave stops asking for a while (one minute, then longer, up to ten), tries with a couple of requests instead of dozens, and tries at once when you switch between Wi-Fi and cellular or tap Try again in Settings › YouTube Music.\n\nBuild 20 · source 1b9fcd1 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -145,6 +153,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.14 is out",
+      "identifier": "release-1.0.14",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-11T21:33:26Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.13 is out",
       "identifier": "release-1.0.13",
