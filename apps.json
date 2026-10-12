@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.16",
+          "date": "2026-10-12T11:13:22Z",
+          "localizedDescription": "Arabic search answers in Arabic: searching المبدأ finds El Mabda2 instead of English \"Principle\" results. Arabic searches also look up the Arabizi spelling, so songs and artists named in Latin letters (Marwan Pablo, Wegz) are found, and translations are left out.\n\nBuild 23 · source 466b3f0 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.16/LastWave.ipa",
+          "size": 3790730,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.15",
           "date": "2026-10-12T10:20:45Z",
           "localizedDescription": "Fixes a crash when closing the morph player with an animated cover. Animated covers in the morph player: reopening no longer jumps from the big cover to the small one, and closing shrinks the video into the mini player instead of a dark empty card. Search: suggestions and recent searches respond to taps again, and songs you play from Search are listed under the search bar.\n\nBuild 22 · source 21b42db · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -161,6 +169,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.16 is out",
+      "identifier": "release-1.0.16",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-12T11:13:22Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.15 is out",
       "identifier": "release-1.0.15",
