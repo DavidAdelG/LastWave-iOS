@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.15",
+          "date": "2026-10-12T10:20:45Z",
+          "localizedDescription": "Fixes a crash when closing the morph player with an animated cover. Animated covers in the morph player: reopening no longer jumps from the big cover to the small one, and closing shrinks the video into the mini player instead of a dark empty card. Search: suggestions and recent searches respond to taps again, and songs you play from Search are listed under the search bar.\n\nBuild 22 · source 21b42db · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.15/LastWave.ipa",
+          "size": 3773457,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.14",
           "date": "2026-10-11T21:33:26Z",
           "localizedDescription": "Playback fix: songs stopped playing from 1.0.11 on with \"Sign in to confirm you're not a bot\". That was a bug in Last Wave, not your network: YouTube's visitor id got longer and the app discarded it, so YouTube refused every request. Fixed. One song YouTube won't serve no longer stalls the whole queue. Two more backup sources for fetching a song that won't stream.\n\nBuild 21 · source 76cd4d2 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -153,6 +161,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.15 is out",
+      "identifier": "release-1.0.15",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-12T10:20:45Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.14 is out",
       "identifier": "release-1.0.14",
