@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.17",
+          "date": "2026-10-16T09:41:10Z",
+          "localizedDescription": "An Apple design review and a SwiftUI code review pass: lyrics and queue text over animated covers are now legible, transport buttons have their full tap target, the mini player no longer clips at large text sizes, section headers without an action no longer look disabled, a Search bug that blocked tapping album results is fixed, low-contrast text on colored tiles is corrected, menu and toggle buttons meet the 44pt minimum, a playlist-delete timing issue is fixed, grammar and wording cleanups, and the full player no longer redraws ten times a second. Also: the app now builds under Swift 6's strict concurrency checking.\n\nBuild 24 · source 2828d18 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.17/LastWave.ipa",
+          "size": 3890675,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.16",
           "date": "2026-10-12T11:13:22Z",
           "localizedDescription": "Arabic search answers in Arabic: searching المبدأ finds El Mabda2 instead of English \"Principle\" results. Arabic searches also look up the Arabizi spelling, so songs and artists named in Latin letters (Marwan Pablo, Wegz) are found, and translations are left out.\n\nBuild 23 · source 466b3f0 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -169,6 +177,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.17 is out",
+      "identifier": "release-1.0.17",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-16T09:41:10Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.16 is out",
       "identifier": "release-1.0.16",
