@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "1.0.18",
+          "date": "2026-10-17T11:24:40Z",
+          "localizedDescription": "Fixed the artist page: a hard dark band was covering the top of the artist's photo, caused by a new iOS 26+ system effect stacking on top of the page's own gradient. The header now shows the full photo cleanly behind the status bar and nav bar.\n\nBuild 25 · source c6f8a49 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
+          "downloadURL": "https://github.com/DavidAdelG/LastWave-iOS/releases/download/v1.0.18/LastWave.ipa",
+          "size": 3891837,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.17",
           "date": "2026-10-16T09:41:10Z",
           "localizedDescription": "An Apple design review and a SwiftUI code review pass: lyrics and queue text over animated covers are now legible, transport buttons have their full tap target, the mini player no longer clips at large text sizes, section headers without an action no longer look disabled, a Search bug that blocked tapping album results is fixed, low-contrast text on colored tiles is corrected, menu and toggle buttons meet the 44pt minimum, a playlist-delete timing issue is fixed, grammar and wording cleanups, and the full player no longer redraws ten times a second. Also: the app now builds under Swift 6's strict concurrency checking.\n\nBuild 24 · source 2828d18 · requires iOS 18.0 · SHA-256 in `LastWave.ipa.sha256`",
@@ -177,6 +185,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Last Wave 1.0.18 is out",
+      "identifier": "release-1.0.18",
+      "caption": "Update from the Updates tab or install from the source.",
+      "date": "2026-10-17T11:24:40Z",
+      "tintColor": "#FF5C8A",
+      "appID": "com.davidadelg.lastwave",
+      "notify": true
+    },
     {
       "title": "Last Wave 1.0.17 is out",
       "identifier": "release-1.0.17",
